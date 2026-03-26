@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Caixa da Pizzaria</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Caixa da Pizzaria</h1>
+        
+        <p>Valor da entrega (R$):</p>
+        <input type="number" id="txtValor" placeholder="Ex: 8.50">
+        
+        <button onclick="registrar()">Registrar Entrega</button>
+        <button onclick="finalizar()" class="btn-secundario">Finalizar Caixa</button>
+        
+        <div id="resultado">
+            Aguardando registros...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
